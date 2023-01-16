@@ -1,7 +1,7 @@
 function encriptar() {
     var texto = document.getElementById("inputtexto").value.toLowerCase();
-    //i es para que afecte a tanto mayus como minus
-    //g afecta a toda la linea
+    //i para afectar minusculas y mayusculas 
+    //g afecta en lo general el texto 
     //m afecta a multiples lineas
     var txtcifrado = texto.replace(/e/igm,"enter");
     var txtcifrado = txtcifrado.replace(/o/igm,"ober");
@@ -37,4 +37,3 @@ function encriptar() {
     document.execCommand('copy');
     alert("Copied!");
   }
-      

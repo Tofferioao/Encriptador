@@ -2,18 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Desafio Spring 1 - Encriptador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <title>Encriptador</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="telefono.css">
     <script type="text/javascript" src="script.js"></script>
-  </head>
+      </head>
   <body>
-    <div class="container">
+    <div class="contenido">
+      <div>
+        <IFrame class="tup" src="Perfil\Linkedin.html" frameborder="0"></IFrame>
+      </div>
       <div class="logo">
-        <img class="logoImg" src="alura (1).png">
-        <h1 class="tittle">Encriptador Gratuito</h1>
+        <img class="logoImg" src="Logo/alura (1).png">
+        <h1 class="titulo">Encriptador Gratuito</h1>
       </div>
       <div class="left">
-          <input class="text-input" type="text" name="input-texto" id="inputtexto" placeholder="Ingrese el texto aqui">
+          <input class="text-area" type="text-Area" name="input-texto" id="inputtexto" placeholder="Ingrese el texto aqui para encriptar o desencriptar">
       </div>
       <div class="right">
         <img src="Logo/toy.png" id="imgDer">
@@ -22,11 +28,16 @@
         <button type="button" id="copiar" onclick="copia()">¡Copiar!</button>
       </div>
       <div class="left-button">
-        <p>Sólo letra minusculas y sin acento</p>
+        <p class="adv"> ℹ Sólo letra minusculas y sin acento</p>
         <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
-        <button type="button" id="btn-desencriptar" onclick="desencriptar()">desencriptar!</button>
+        <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
       </div>
     </div>
-    
+
+    <div>
+      <IFrame class="tup" src="Perfil\Linkedin.html" frameborder="0"></IFrame>
+    </div>
+            
 </body>
+
 </html>

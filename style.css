@@ -1,17 +1,22 @@
 body{
-    margin: 0px;
+    margin: auto;
     padding: 0px;
     background: #F3F5FC;
+    overflow: normal;
+
   }
-  .container{
+  .contenido{
     margin: auto;
     width: 960px;
     height: 650px;
     padding: 5px;
+    font-family: 'Inter', sans-serif;
+
   }
   
-  .text-input{
-    float: left;
+  .text-area{
+    float: none;
+    display: block;
     margin-left: 10%;
     margin-top: 10%;
     color: #0A3871;
@@ -20,7 +25,9 @@ body{
     background: #F3F5FC;
     outline: none;
     border: none;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
+    word-wrap: normal;
   }
   
   .left{
@@ -34,13 +41,16 @@ body{
     float: left;
     width: 70%;
     height: auto;
+    margin-left: -1%;
     border-radius: 10px;
+    right: 70%;
   }
   
   #btn-encriptar{
     padding: 24px;
     width: 30%;
     height: 60%;
+    color: #D8DFE8;
     background: #0A3871;
     border-radius: 24px;
     margin-left: 15%;
@@ -49,6 +59,7 @@ body{
     padding: 24px;
     width: 30%;
     height: 60%;
+    color: #0A3871;
     background: #D8DFE8;
     border-radius: 24px;
     margin-left: 10%;
@@ -62,6 +73,7 @@ body{
     border-radius: 24px;
     width: 30%;
     height: 80%;
+    left: 12%;
   }
   
   #imgDer{
@@ -95,9 +107,12 @@ body{
     float: inherit;
     margin-left: 5%;
   }
-  .tittle{
+  .titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     float: inherit;
     margin-left: 15%;
+    color: #0A3871;
+    font-size: 2em;
   }
   
   #texto2{
@@ -123,3 +138,16 @@ body{
     width: 10%;
     height: 10%;
   }
+.adv{
+  margin-left: 16%;
+}
+.tup{
+  display: block;
+  position: absolute;
+  margin-left: -250px;
+  float:inline-start;
+  margin-top: 100px;
+  width: 290px;
+  height: 400px ;
+  overflow: hidden;
+}
