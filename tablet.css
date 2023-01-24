@@ -1,4 +1,4 @@
-@media screen and (max-width: 999px) and (min-width: 500px) {
+@media screen and (min-width: 500px) and (max-width: 999px) {
     .contenido{
       width: 100%;
       height: auto;
