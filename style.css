@@ -61,6 +61,7 @@ body{
     color: #D8DFE8;
     background: #0A3871;
     border-radius: 24px;
+    border:3px;
     margin-left: 15%;
   }
   #btn-desencriptar{
@@ -71,6 +72,7 @@ body{
     background: #D8DFE8;
     border-radius: 24px;
     margin-left: 10%;
+    border:3px;
   }
   p{
     margin-left: 5%;
